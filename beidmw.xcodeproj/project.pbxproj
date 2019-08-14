@@ -1257,10 +1257,6 @@
 						DevelopmentTeam = D4SW6VZB8M;
 						ProvisioningStyle = Manual;
 					};
-					7FA1A9F60F85F36E000D9EE1 = {
-						DevelopmentTeam = D4SW6VZB8M;
-						ProvisioningStyle = Manual;
-					};
 				};
 			};
 			buildConfigurationList = 1DEB916408733D950010E9CD /* Build configuration list for PBXProject "beidmw" */;
@@ -2170,9 +2166,11 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = D4SW6VZB8M;
+				DEVELOPMENT_TEAM = EU27N85PBZ;
 				DYLIB_COMPATIBILITY_VERSION = "";
 				DYLIB_CURRENT_VERSION = "";
 				EXECUTABLE_PREFIX = lib;
@@ -2219,9 +2217,11 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = D4SW6VZB8M;
+				DEVELOPMENT_TEAM = EU27N85PBZ;
 				DYLIB_COMPATIBILITY_VERSION = "";
 				DYLIB_CURRENT_VERSION = "";
 				EXECUTABLE_PREFIX = lib;
