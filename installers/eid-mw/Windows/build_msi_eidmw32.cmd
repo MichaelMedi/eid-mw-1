@@ -14,6 +14,7 @@
 @echo [INFO] Making the nl-nl version
 
 "%BEID_DIR_WIX%\candle.exe" -v -dLang=nl -out obj\Product.wixobj -arch x86 -ext "%BEID_DIR_WIX%\WixUtilExtension.dll" -ext "%BEID_DIR_WIX%\WixUIExtension.dll" %~dp0\Product.wxs
+type %~dp0\Product.wxs
 @if NOT "%ERRORLEVEL%" == "0" goto msi_failed
 "%BEID_DIR_WIX%\Light.exe" -v -cultures:nl-nl -ext "%BEID_DIR_WIX%\WixUtilExtension.dll" -ext "%BEID_DIR_WIX%\WixUIExtension.dll" -loc %~dp0\Strings-nl.wxl -loc %~dp0\WixUI_nl-nl.wxl -out bin\nl-nl\BeidMW32-Basic-nl.msi -pdbout bin\nl-nl\BeidMW32-Basic-nl.wixpdb -sice:ICE09 obj\Product.wixobj"
 @if NOT "%ERRORLEVEL%" == "0" goto msi_failed
